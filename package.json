@@ -1,0 +1,26 @@
+{
+  "name": "yahoo-transit-english",
+  "version": "1.0.0",
+  "description": "Bookmarklet for making English screenshot of Yahoo Transit",
+  "main": "index.js",
+  "author": "Pawit Pornkitprasan",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "csv-loader": "^2.1.1",
+    "husky": "^0.14.3",
+    "prettier": "1.11.1",
+    "pretty-quick": "^1.4.1",
+    "webpack": "^4.1.1",
+    "webpack-cli": "^2.0.11",
+    "webpack-dev-server": "^3.1.1"
+  },
+  "scripts": {
+    "build": "webpack --mode production",
+    "dev": "webpack-dev-server --open --mode development",
+    "precommit": "pretty-quick --staged"
+  },
+  "dependencies": {
+    "html2canvas": "^1.0.0-alpha.10"
+  }
+}

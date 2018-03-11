@@ -1,0 +1,5 @@
+<h1>Dev Server</h1>
+Test Bookmarket: <a href="" id="bookmarklet_link">DEV - Y Transit Eng</a>
+<script>
+    document.getElementById('bookmarklet_link').href = "javascript:(function(){ var script=document.createElement('script'); script.type='text/javascript'; script.src='" + window.location.href + "bundle.js'; document.getElementsByTagName('head')[0].appendChild(script); })();"
+</script>

@@ -1,0 +1,49 @@
+japanese,english
+#, Company Names
+ＪＲ, JR
+大阪市, Osaka City Subway
+京都丹後鉄道, Kyoto Tango Railway
+東京メトロ, Tokyo Metro
+京成, Keisei
+都営, Toei
+#, Train types
+特急, Limited Express
+快速, Rapid
+新快速, Special Rapid
+新幹線, Shinkansen
+アクセス, ACCESS
+#, Train names
+ワイドビューひだ, Wide View Hida
+丹後あおまつ, Tango Aomatsu
+ひかり, Hikari
+こうのとり, Konotori
+はしだて, Hashidate
+のぞみ, Nozomi
+#, Line names
+営御堂筋線, Midosuji Line
+営四つ橋線, Yotsubashi Line
+神戸線, Kobe Line
+名古屋臨海高速鉄道あおなみ線, Aonami Line
+山手線, Yamanote Line
+南北線, Namboku Line
+銀座線, Ginza Line
+宇都宮線, Utsunomiya Line
+上野東京ライン, Ueno-Tokyo Line
+浅草線, Asakusa Line
+京浜東北・根岸線, Keihin-Tōhoku/Negishi Line
+京浜東北線, Keihin-Tōhoku Line
+根岸線, Negishi Line
+本線, Main Line
+総武線, Chūō-Sōbu Line
+成田スカイアクセス線アクセス特急, Narita Sky Access Line
+#, Line Description
+内回り, Inner Tracks
+外回り, Outer Tracks
+#, Train number
+(\d+)号, $1
+#, Train destination
+・(.+)行, for $1
+・(.+)方面, for $1
+#, Misc
+同駅内徒歩, Walk within the station
+徒歩,Walk
