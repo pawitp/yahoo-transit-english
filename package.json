@@ -16,7 +16,8 @@
     "webpack-dev-server": "^3.1.1"
   },
   "scripts": {
-    "build": "webpack --mode production",
+    "build":
+      "webpack --mode production && cp assets/index_prod.html dist/index.html",
     "dev": "webpack-dev-server --open --mode development",
     "precommit": "pretty-quick --staged"
   },

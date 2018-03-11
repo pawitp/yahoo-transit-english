@@ -11,7 +11,7 @@ convert-to-screenshot functionality will automatically activate on "print" (Âç∞Â
 
 # Usage
 
-Drag the following bookmarklet to your bookmark bar: (TODO)
+Install the bookmarklet from <https://y-transit-eng.netlify.com>.
 
 # Development
 
